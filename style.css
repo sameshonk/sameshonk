@@ -47,6 +47,7 @@ header h1 {
 .flex {
     display: flex;
     width: 100%;
+	flex-wrap: wrap;
 }
 
 .main {
@@ -57,7 +58,7 @@ header h1 {
 }
 
 #shonk {
-    height: 140px;
+    width: 40%;
     transform: rotate(165deg);
     float: right;
 }
@@ -89,7 +90,7 @@ header h1 {
 }
 
 #giri {
-    width: 115px;
+    width: 160px;
     float: left;
     margin-right: 20px;
 }
@@ -97,6 +98,33 @@ header h1 {
 #cataline {
     width: 200px;
     float: left;
+}
+
+.row {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.musicbox {
+    padding: 10px;
+    font-size: 0;
+    border: 5px solid teal;
+    background-color: teal;
+    flex: auto;
+}
+
+.video {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 230px;
+}
+
+h2 {
+    font-size: 30px;
+    color: lightblue;
+    padding: 5px;
+    text-align: center;
 }
 
 li {
@@ -110,7 +138,7 @@ footer {
     text-align: center;
 }
 
-h1, h3, p {
+h1, h2, h3, p {
     margin: 0;
 }
 
