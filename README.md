@@ -1,1 +1,4 @@
 # sameshonk
+
+todo:
+ - add readme
